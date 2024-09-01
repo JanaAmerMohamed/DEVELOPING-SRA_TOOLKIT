@@ -8,6 +8,24 @@
 
 ## filtering BioProjects, fetching detailed project information, retrieving and displaying BioSample counts, and processing XML data to extract necessary details. This tool provides a streamlined approach for researchers to access and download essential genomic data from the NCBI database.
 
+## Methodology:
+---------------
+
+1. Search Criteria: We input parameters based on the PICO 
+Principle to retrieve BioProjects relevant to our search.
+PICO stands for: - P ➔(Population) - I ➔ (Interventions) - C ➔ (Comparison) - O ➔ (Outcomes) 
+
+2. Selection Process: Once the search results are returned, you 
+can select a BioProject of interest.
+
+3. Biosample Details: Clicking on the selected BioProject 
+displays all related biosamples. Each biosample includes links to
+both the biosample and the SRA to verify the details.
+
+4. Download FASTQ Files: You can choose a biosample and 
+download its corresponding SRA file in FASTQ format. 
+
+
 ## Intro window:
 ----------------
 
