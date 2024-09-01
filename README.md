@@ -1,12 +1,12 @@
 ## OverView:
 ------------
 
-## we developed a tool that leverages the SRA Toolkit for retrieving and managing BioProjects and BioSamples from the NCBI database. Guided by the PICO principles—Population, Intervention, Comparison, and Outcome—our search strategy ensures the selection of relevant BioProjects. The process begins with inputting specific search criteria based on PICO, which returns a list of BioProjects. Once a BioProject is selected, detailed information about the associated BioSamples is displayed, including links to verify the data through SRA and BioSample records. Users can then download the corresponding SRA files in FASTQ format. The tool is implemented using Python, utilizing APIs and XML files to manage data retrieval and parsing.
+we developed a tool that leverages the SRA Toolkit for retrieving and managing BioProjects and BioSamples from the NCBI database. Guided by the PICO principles—Population, Intervention, Comparison, and Outcome—our search strategy ensures the selection of relevant BioProjects. The process begins with inputting specific search criteria based on PICO, which returns a list of BioProjects. Once a BioProject is selected, detailed information about the associated BioSamples is displayed, including links to verify the data through SRA and BioSample records. Users can then download the corresponding SRA files in FASTQ format. The tool is implemented using Python, utilizing APIs and XML files to manage data retrieval and parsing.
 
 ## Key features include:
 ------------------------
 
-## filtering BioProjects, fetching detailed project information, retrieving and displaying BioSample counts, and processing XML data to extract necessary details. This tool provides a streamlined approach for researchers to access and download essential genomic data from the NCBI database.
+filtering BioProjects, fetching detailed project information, retrieving and displaying BioSample counts, and processing XML data to extract necessary details. This tool provides a streamlined approach for researchers to access and download essential genomic data from the NCBI database.
 
 ## Methodology:
 ---------------
